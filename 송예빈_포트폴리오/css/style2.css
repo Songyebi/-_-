@@ -1,0 +1,287 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+.header .sitename{
+    padding: 30px 30px;
+}
+.header .sitename h6{
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 3.5rem;
+    position: fixed;
+    z-index: 111;
+}
+.header .pagename{
+    margin: 20px 20px;
+}
+.header .pagename h6{
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: right;
+}
+
+.home{
+    height: calc(100vh - 200px);
+    margin-bottom: 100px;
+}
+.mainimg{
+    width: 100%;
+    height: calc(100% - 80px);
+    position: relative;
+}
+.mainimg video{
+    position: absolute; 
+    left: 0; 
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.info .inner{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+}
+.info .mation{
+    display: flex;
+    gap: 20px;
+    
+}
+.info .mation ul{
+    font-size: small;
+    font-weight: 900;
+    font-size: 2rem;
+}
+.info .mation ul li{}
+.info .detail{
+    display: flex;
+    gap: 20px
+}
+.info .detail ul{
+    text-align: right;
+    font-size: small;
+    font-weight: 900;
+    font-size: 2rem;
+}
+.info .detail ul li{}
+
+/* 설명 페이지 */
+.explain{}
+.explain .inner{
+    /* padding: 0 50px; */
+    display: flex;
+    justify-content: space-between;
+}
+.explain .left{width: 40%;}
+
+
+.explain .mainname h6{
+    width: 100%
+}
+.explain .subname{
+    font-size: 2.8rem;
+    font-weight: 900;
+    height: 200px;
+    width: 100%;
+} 
+.explain .explain-2{
+    
+} 
+.explain .explain-2 h3{
+    font-size: 2.2rem;
+    font-weight: 900;
+    
+} 
+.explain .explain-2 h1{
+    font-size: 2rem;
+    font-weight: 550;
+    padding-top: 15px;
+    text-align: justify;
+} 
+.ex-img{
+    margin-top: 5rem;
+}
+.ex-img ul{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+.ex-img ul li{
+    width: calc((100% - 30px) / 4);
+    height: 100%;
+    position: relative;
+}
+.ex-img ul li::after{content: ""; padding-bottom: 500%; display: block;}
+.ex-img ul li img{
+    position: absolute; top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.explain .right{width: 38%;}
+.explain .right .ex-2img{width: 100%;}
+.explain .right .ex-2img img{width: 100%;}
+
+
+
+.right{}
+.right .ex-2img{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    justify-content: space-between;
+    height: 80rem;
+    width: 100%;
+}
+@media screen and (max-width: 768px){
+    .right .{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+.right .ex-2img img{
+    object-fit: cover;
+    height: 100%;
+}
+.explain .right{
+    
+}
+.explain .right .ex-2img{}
+
+.keywork{
+
+    padding-top: 20px;
+}
+.keywork ul{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.keywork ul li{
+    text-align: justify;
+}
+.keywork ul li h5{
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+.keywork ul li h1{
+    padding-top: 10px;
+    font-size: 2rem;
+    font-weight: 550;
+}
+.explain .right-add{width: 15%;}
+.explain .right-add{
+    display: flex;
+    padding: 20rem 0;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.explain .right-add .add{}
+.explain .right-add .add .add1{}
+.explain .right-add .add .add1 ul{}
+.explain .right-add .add .add1 ul li{}
+.explain .right-add .add .add1 ul li h3{}
+.explain .right-add .add .add1 ul li h1{}
+.explain .right-add .add .add2{
+    padding-top: 40px;
+}
+.explain .right-add .add .add2 ul{}
+.explain .right-add .add .add2 ul li{}
+.explain .right-add .add .add2 ul li h3{}
+.explain .right-add .add .add2 ul li h1{}
+
+
+
+.full-video{
+    padding-top: 50px;
+}
+.full-video .video{position: relative;}
+.full-video .video::after{content: ""; padding-bottom: 56.25%; display: block;}
+.full-video .video iframe{position: absolute; width: 100%; height: 100%;}
+.full-video .video video{width: 100%;}
+
+.bla{padding: 10rem 0;}
+.bla .inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.after{}
+.after .face-img{
+    width: 300px;
+    height: 300px;  
+}
+.after .face-img img{
+    width: 100%;
+    height: 100%;
+}
+.middle-ex{
+    width: calc(100% - 350px);
+}
+.middle-ex .after-ex{
+    display: flex;
+}
+.middle-ex .after-ex ul{
+    width: 600px;
+}
+.middle-ex .after-ex ul li{}
+.middle-ex .after-ex ul li h5{
+    font-size: 2.8rem;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.middle-ex .so-little-ex{
+    display: flex;
+    gap: 20px;
+}
+.middle-ex .so-little-ex .left{
+    width: 500px;
+}
+.middle-ex .so-little-ex .right{
+    width: 500px;
+}
+.middle-ex .so-little-ex li h1{
+    padding-top: 20px;
+    font-size: 2rem;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.under{
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    gap: 100px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.under ul{}
+.under ul li{}
+
+
+.after-ex .ing-img{
+    width: 400px;
+    height: 200px;
+}
+
+.boody{
+    padding-bottom: 10px;
+}
+.boody .swiper-wrapper{
+   padding: 100px 0;
+}
+.boody ul li{
+    height: 500px;
+}
+.boody ul li img{height: 100%;}
+
+.boody .swiper-pagination-bullet-active{background-color: black;}

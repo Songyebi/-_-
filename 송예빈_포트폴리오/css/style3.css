@@ -1,0 +1,119 @@
+
+.keywork{
+    padding-top: 20px;
+}
+.keywork ul{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.keywork ul li{
+    text-align: justify;
+}
+.keywork ul li h5{
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+.keywork ul li h1{
+    padding-top: 10px;
+    font-size: 2rem;
+    font-weight: 550;
+}
+.right-add{
+    display: flex;
+    padding-left: 40px;
+    padding: 20rem 5rem;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-add .add{}
+.right-add .add .add1{}
+.right-add .add .add1 ul{}
+.right-add .add .add1 ul li{}
+.right-add .add .add1 ul li h3{}
+.right-add .add .add1 ul li h1{}
+.right-add .add .add2{
+    padding-top: 40px;
+}
+.right-add .add .add2 ul{}
+.right-add .add .add2 ul li{}
+.right-add .add .add2 ul li h3{}
+.right-add .add .add2 ul li h1{}
+
+.full-video{
+    padding-top: 50px;
+}
+.full-video .video{}
+.full-video .video video{}
+.full-video .play-btn{}
+.full-video .play-btn img{}
+
+.bla{
+    display: flex;
+    padding-top: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.after{}
+.after .face-img{
+    width: 300px;
+    height: 300px;  
+}
+.after .face-img img{
+    width: 100%;
+    height: 100%;
+}
+.middle-ex{
+    width: 100%;
+    padding-bottom: 50 px;
+}
+.middle-ex .after-ex{
+    display: flex;
+}
+.middle-ex .after-ex ul{
+    width: 600px;
+}
+.middle-ex .after-ex ul li{}
+.middle-ex .after-ex ul li h5{
+    font-size: 2.8rem;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.middle-ex .so-little-ex{
+    display: flex;
+    gap: 20px;
+}
+.middle-ex .so-little-ex .left{
+    width: 500px;
+}
+.middle-ex .so-little-ex .right{
+    width: 500px;
+}
+.middle-ex .so-little-ex li h1{
+    padding-top: 20px;
+    font-size: 2rem;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.under{
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    gap: 100px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.under ul{}
+.under ul li{}
+
+
+.middle-ex .after-ex .little-ex{
+}
+.middle-ex .after-ex .little-ex-2{}
+.after-ex .ing-img{
+    width: 400px;
+    height: 200px;
+}
